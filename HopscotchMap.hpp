@@ -25,6 +25,14 @@
  * 1. What is Hopscotch hashing?
  * ---------------------------------------------------------------------------
  *
+ * @link https://en.wikipedia.org/wiki/Hopscotch_hashing
+ * @link https://tessil.github.io/2016/08/29/hopscotch-hashing.html
+ * @link https://programming.guide/hopscotch-hashing.html
+ * @link https://codecapsule.com/2013/08/11/hopscotch-hashing/
+ * @link https://github.com/Tessil/hopscotch-map
+ * @link https://web.archive.org/web/20221220235913/http://mcg.cs.tau.ac.il/papers/disc2008-hopscotch.pdf
+ * @link https://mural.maynoothuniversity.ie/id/eprint/15097/1/BP_lock-free.pdf
+ *
  * A key is mapped to a home bucket:
  *
  *     home = hash(key) % capacity
