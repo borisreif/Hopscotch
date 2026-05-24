@@ -1,0 +1,14 @@
+build/
+bin/
+obj/
+data_root/
+out/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+project.json
+settings.json
+.vscode/
+node_modules/
